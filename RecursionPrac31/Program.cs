@@ -8,12 +8,11 @@ namespace RecursionPrac31
 {
     internal class Program
     {
-        private static object fibo;
 
         static void Main(string[] args)
         {
-            Fibonacci fino = new Fibonacci();
-            Console.WriteLine(fibo.Get(10));
+            Fibonacci fibo = new Fibonacci();
+            Console.WriteLine(fibo.Get(30));
         }
     }
 }
